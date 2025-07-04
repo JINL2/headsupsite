@@ -1,0 +1,11 @@
+# Ignore large image files
+room/**/*.JPG
+room/**/*.jpg
+
+# But keep optimized versions
+!room/optimized/**/*.JPG
+!room/optimized/**/*.jpg
+
+# Or alternatively, ignore the entire room directory
+# and host images on a CDN or image hosting service
+# room/
